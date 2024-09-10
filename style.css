@@ -1,0 +1,40 @@
+html,
+body,
+* {
+    font-size:16px;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(100, 70, 100);
+    box-sizing: border-box;
+}
+li{
+
+}
+.item{
+
+}
+#diddy{
+
+}
+h1{
+    font-size: 10vw;
+    text-align:center;
+}
+img{
+    width: 50vw;
+    height: 300px;
+}
+.post {
+    height: 60vw;
+    width: 80vw;
+    background-color: rgb(154, 90, 90);
+    margin: 10vw auto;
+    padding: 0px;
+}
+.post-img {
+    /*object fix fixes aspect ratio of image if needed*/
+    width: 75%;
+    height: 50%;
+    object-fit: cover;
+    
+}
